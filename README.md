@@ -99,19 +99,19 @@ AC4 : Verify record is created in database table WORKING_CLASS_HEROES .
 
 AC1: When I Iog in as a Clerk, I should be able to upload a csv file to create multiple heroes
 when I click on "Upload a CSV file" button.
-[images]
+![US2AC1](https://github.com/KitkatRed/QA-TechAssignment-1/blob/main/images/US2_AC1.png)
 
 AC2 : The CSV file format is as follows which contains the data to be inserted :
 < natid >, < name >, < gender >, < birthDate >, < deathDate >, < salary >, < taxPaid >, < browniePoints>
 
 AC3 : When I click on Create after I upload the csv file, I should see a success notification.
 All records are persisted successfully into the database table WORKING_CLASS_HEROES.
-[images]
+![USAC3](https://github.com/KitkatRed/QA-TechAssignment-1/blob/main/images/US2_AC3.png)
 
 AC4 : There is an erroneous record in the csv file. When I click on Create after I upload the
 csv file, I should see a failure notification stating that the SUT failed to persist that record. All
 records which passed validation will still be persisted in WORKING_CLASS_HEROES .
-[images]
+![US2AC4](https://github.com/KitkatRed/QA-TechAssignment-1/blob/main/images/US2_AC4.png)
 
 
 -------
@@ -119,7 +119,7 @@ records which passed validation will still be persisted in WORKING_CLASS_HEROES 
 ### (User Story 3) As the Book Keeper, I should be able to generate a Tax Relief Egress File from the UI
 AC1: When I Iog in as a Book Keeper, I should be able to generate a tax relief egress file
 taxrelief .txt by clicking the Generate Tax Relief File button
-[images]
+![US3AC1](https://github.com/KitkatRed/QA-TechAssignment-1/blob/main/images/US3_AC1.png)
 
 AC2: File contain a body where each line is in the format: <natid>, <tax relief amount>,
 followed by a footer which is a number that indicates the total number of records written to the
@@ -141,10 +141,10 @@ or natid.
 
 AC1: When I login as a Governor, I should be able to click on the List All button to
 see the heroes.
-[images]
+![US4AC1](https://github.com/KitkatRed/QA-TechAssignment-1/blob/main/images/US4_AC1.png)
 
 AC2: I can search for any hero by typing their natid into the search bar.
-[images]
+![US4AC2](https://github.com/KitkatRed/QA-TechAssignment-1/blob/main/images/US4_AC2.png)
 
 AC3: I can search for any hero by typing their name into the search bar.
-[images]
+![US4AC3](https://github.com/KitkatRed/QA-TechAssignment-1/blob/main/images/US4_AC3.png)
