@@ -30,6 +30,8 @@ discretion
    - c. Password: pwd
 3. Run java -Dspring.profiles.active=maria -jar
 {path-to-this-jar}/OppenheimerProjectDev.jar
+- You may download the Jar file from the Link: https://drive.google.com/file/d/1Ocvp2i5fkZnqNoAKD7GUwxSpJ9kpGuli/view?usp=share_link
+  
 4. Verify that you can access the login page via http://localhost:9997/login
 5. Login credentials for various roles:
 
