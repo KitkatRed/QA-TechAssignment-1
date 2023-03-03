@@ -48,6 +48,7 @@ Tips:
 
 ## USER STORIES
 ### (User Story 1) Application allows the creation of a single working class hero via API call.
+
 AC1: POST request /api/v1/hero with the following payload:
 #### Payload 
 ``` 
@@ -102,7 +103,9 @@ when I click on "Upload a CSV file" button.
 ![US2AC1](https://github.com/KitkatRed/QA-TechAssignment-1/blob/main/images/US2_AC1.png)
 
 AC2 : The CSV file format is as follows which contains the data to be inserted :
+```
 < natid >, < name >, < gender >, < birthDate >, < deathDate >, < salary >, < taxPaid >, < browniePoints>
+```
 
 AC3 : When I click on Create after I upload the csv file, I should see a success notification.
 All records are persisted successfully into the database table WORKING_CLASS_HEROES.
@@ -117,12 +120,16 @@ records which passed validation will still be persisted in WORKING_CLASS_HEROES 
 -------
 
 ### (User Story 3) As the Book Keeper, I should be able to generate a Tax Relief Egress File from the UI
+
 AC1: When I Iog in as a Book Keeper, I should be able to generate a tax relief egress file
 taxrelief .txt by clicking the Generate Tax Relief File button
 ![US3AC1](https://github.com/KitkatRed/QA-TechAssignment-1/blob/main/images/US3_AC1.png)
 
-AC2: File contain a body where each line is in the format: <natid>, <tax relief amount>,
-followed by a footer which is a number that indicates the total number of records written to the
+AC2: File contain a body where each line is in the format: 
+```
+<natid>, <tax relief amount>
+```
+,followed by a footer which is a number that indicates the total number of records written to the
 file
 
 AC3: If there are no records to be generated, a file is still being generated containing only the
@@ -136,8 +143,7 @@ being written into file. File statuses are PROCESSING , COMPLETED , ERROR
 -------
 
 
-### (User Story 4) As the Governor, I want to search for a hero using name
-or natid.
+### (User Story 4) As the Governor, I want to search for a hero using name or natid.
 
 AC1: When I login as a Governor, I should be able to click on the List All button to
 see the heroes.
