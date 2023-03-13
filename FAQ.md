@@ -21,5 +21,6 @@ References: https://askubuntu.com/questions/1334269/how-to-make-a-virtual-machin
 
 ## Docker
 To install docker in linux. Please follows the steps from:https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04
+NOTE: follows and complete Step1 only.
 
 After completing the above, you should able to follow the remaining steps, mentioned in the assignment.
