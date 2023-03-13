@@ -48,6 +48,7 @@ Tips:
 
 Tested Environment:
 - The application run on Linux OS (Ubuntu dist)
+- Refers to FAQ.md for help
 -------
 
 ## USER STORIES
