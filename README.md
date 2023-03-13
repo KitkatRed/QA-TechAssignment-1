@@ -46,6 +46,8 @@ Tips:
 - Automation
 - Exploratory testing
 
+Tested Environment:
+- The application run on Linux OS (Ubuntu dist)
 -------
 
 ## USER STORIES
