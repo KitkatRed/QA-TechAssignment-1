@@ -1,7 +1,8 @@
 # What is the recommended OS to run the assignement?
-The assignment has tested in Linux OS (Ubuntu version 22.04 LTS)
-
-## OS
+The assignment has tested on the following:
+- in Linux OS (Ubuntu version 22.04 LTS)
+- window with docker Desktop install
+## OS Linux
 Recommend: download a ready-configured Ubuntu vdi file from https://www.osboxes.org/ubuntu/
 
 ## Virtualzation tool
@@ -24,3 +25,23 @@ To install docker in linux. Please follows the steps from:https://www.digitaloce
 NOTE: follows and complete Step1 only.
 
 After completing the above, you should able to follow the remaining steps, mentioned in the assignment.
+
+# OS Window
+To those who wish to run on OS Window, you are required to install the following:
+- Docker Desktop
+- Openjdk version "20" 2023-03-21  
+From ReadME.md file, follow Step 1 and Step 2.
+
+Step 3, please follow here:
+- ensure the dockerfile (from the repo) is the same location as the jar file.
+
+- run the following command:
+```
+# you are building an image named: portal
+docker build -t portal .
+
+# deploy with image "portal" with port 9997 to 9997
+# must use port 9997
+docker run -p 9997:9997 portal
+```
+Refer back ReadME.md for the remaining steps.
